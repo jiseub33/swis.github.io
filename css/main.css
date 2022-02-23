@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin:0;
+}
+
+body {
+    margin:0; line-height: 1;
+    background: rgb(248, 248, 248);
+}
+
+div.maintitle {
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+
+    text-align: left;
+    padding: 20px 0;
+}
+
+.maintitle h1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 800;
+}
+
+.maintitle p {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+}
+
+.content {
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.content div {
+    margin:0 0 20px 0;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: #fff;
+}
+
+.content .now {
+    padding: 15px;
+}
+
+.content .now .title {
+    padding: 10px 5px;
+    margin: 0 0 15px 0;
+    box-sizing: border-box;
+}
+
+.content .now .title h1 {
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 800;
+    color: rgb(240, 0, 0);
+}
+
+.content .now .servers {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.content .now .servers:after {
+    content:""; display: block; clear: both;
+}
+
+.content .now .servers .server-width {
+    display: inline-block;
+    width: 49%;
+    padding: 0;
+    margin: 0;
+}
+
+.content .now .servers .server-width .server {
+    display: inline-block;
+
+    width: 100%;
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.content .now .servers .server-width .server .img {
+    width: 100%;
+    height: 100px;
+    margin:0;
+    border-radius: inherit;
+    background: url(../images/servers/2048.png) no-repeat;
+}
+
+.content .now .servers .server-width .server p {
+    display: inline-block;
+    width: 100%;  
+    padding: 10px;
+    box-sizing: border-box;
+
+    font-family: 'Gugi', cursive;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+}
+
+.content .timeline {
+    padding: 15px;
+}
+
+.content .timeline .title {
+    padding: 10px 5px;
+    margin: 0 0 15px 0;
+    box-sizing: border-box;
+}
+
+.content .timeline .title h1 {
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+}
+
+.content .timeline .history {
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    background: rgb(212, 212, 212);
+    border-radius: 20px;
+}
+
+.content .timeline .history::-webkit-scrollbar {
+    display: none;
+}
+
+.content .timeline .history .story {
+    display: inline-block;
+
+    width: 200px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: inherit;
+}
+
+.content .timeline .history .story a {
+    text-decoration: none;
+}
+
+.content .timeline .history .story .img {
+    height: 100px;
+    margin:0;
+    border-radius: 20px 20px 0 0;
+    background: url(../images/servers/2048.png) no-repeat;
+}
+
+.content .timeline .history .story .text {
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content .timeline .history .story .text h1 { 
+    margin: 0 0 5px 0;
+    font-family: 'Gugi', cursive;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+}
+
+.content .timeline .history .story .text p {
+    font-family: 'Gugi', cursive;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+}
+
+.content .timeline .history .win .text h1 {
+    color: rgb(0, 255, 157);
+}
+
+.content .timeline .history .defeat .text h1 {
+    color: rgb(255, 208, 0);
+}
+
+.content .timeline .history .tie .text h1 {
+    color: rgb(255, 0, 0);
+}
