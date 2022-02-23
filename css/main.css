@@ -146,7 +146,7 @@ div.maintitle {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border-radius: inherit;
+    border-radius: 0;
 }
 
 .content .timeline .history .story a {
@@ -156,7 +156,7 @@ div.maintitle {
 .content .timeline .history .story .img {
     height: 100px;
     margin:0;
-    border-radius: 20px 20px 0 0;
+    border-radius: 0;
     background: url(../images/servers/2048.png) no-repeat;
 }
 
@@ -193,4 +193,80 @@ div.maintitle {
 
 .content .timeline .history .tie .text h1 {
     color: rgb(255, 0, 0);
+}
+
+.content .dashboard {
+    padding: 15px;
+}
+
+.content .dashboard .title {
+    padding: 10px 5px;
+    margin: 0 0 15px 0;
+    box-sizing: border-box;
+}
+
+.content .dashboard .title h1 {
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 800;
+    color: rgb(240, 0, 0);
+}
+
+.content .dashboard .information {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.content .dashboard .information:after {
+    content:""; display: block; clear: both;
+}
+
+.content .dashboard .information .information-width {
+    display: inline-block;
+    width: 49%;
+    padding: 0;
+    margin: 0;
+
+    vertical-align: top;
+}
+
+.content .dashboard .information .information-width .statistics {
+    display: inline-block;
+    width: 90px;
+    margin:0 auto;
+    box-sizing: border-box;
+}
+
+.content .dashboard .information .information-width .statistics .chart .height {
+    display: inline-block;
+    width: 100px;
+
+    text-align: center;
+}
+
+.content .dashboard .information .information-width .statistics .chart {
+    margin:0 auto;
+    border-radius: inherit;
+    background: blue;
+}
+
+.content .dashboard .information .information-width:nth-child(1) .statistics .chart {
+    width: 100%;
+}
+
+.content .dashboard .information .information-width:nth-child(2) .statistics .chart {
+    width: 20%;
+}
+
+.content .dashboard .information .information-width .statistics p {
+    display: inline-block; 
+    padding: 10px;
+    box-sizing: border-box;
+
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: left;
+    vertical-align: top;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
 }
