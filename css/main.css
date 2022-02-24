@@ -1,3 +1,71 @@
+@keyframes ani{
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+.intro {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-size: 400% 400%;
+    background: linear-gradient(120deg, #4c00ff 0%, #000000 100%);
+
+    animation: ani 1s ease-out;
+}
+
+.intro div {
+    position: relative;
+    top:30%;left:50%; 
+    max-width: 1000px;
+    width:80%;
+    transform:translate(-50%, -50%);
+    background:#fff;
+    box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.35);
+}
+
+@keyframes ani2{
+    0% {filter: blur(3px); transform: translateX(-100%);}
+    100% { filter: blur(0px); transform: translateX(0%);}
+}
+
+.intro h1 {
+    display: block;
+    position: fixed;
+
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: #fff;
+
+    animation: ani2 1s ease-out;
+}
+
+.intro p {
+    display: block;
+    position: fixed;
+    padding: 20px 0 0 0;
+
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 5px;
+    font-weight: 800;
+    color: #fff;
+}
+
+@keyframes ani3{
+    0% {transform: translate(500px, 300px);}
+    100% {transform: translate(0px, 300px);}
+}
+
+.intro img {
+    display: block;
+    position: fixed;
+    width: 120px;
+    height: auto;
+
+    animation: ani3 5s ease-out;
+}
+
 .content {
     width: 90%;
     margin: 0 auto;

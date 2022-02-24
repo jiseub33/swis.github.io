@@ -58,6 +58,10 @@
     display: none;
 }
 
+.content .rank input[type="checkbox"]:checked ~ ul li.mercenary a{
+    background: linear-gradient(to right bottom, #e1afcc, #7530e3);
+}
+
 .content .rank ul {
     display: block;
     padding: 0;
@@ -97,10 +101,6 @@
 
 .content .rank ul li a {
     background: rgb(41, 41, 41);
-}
-
-.content .rank ul li.mercenary a {
-    background: linear-gradient(to right bottom, #e1afcc, #7530e3);
 }
 
 .content .rank ul li h1 { 
