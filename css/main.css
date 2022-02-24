@@ -1,34 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
-
-* {
-    margin:0;
-}
-
-body {
-    margin:0; line-height: 1;
-    background: rgb(248, 248, 248);
-}
-
-div.maintitle {
-    width: 90%;
-    height: 300px;
-    margin: 0 auto;
-
-    text-align: left;
-    padding: 20px 0;
-}
-
-.maintitle h1 {
-    font-family: 'Noto Sans KR', sans-serif;
-    font-weight: 800;
-}
-
-.maintitle p {
-    font-family: 'Noto Sans KR', sans-serif;
-    font-weight: 500;
-}
-
 .content {
     width: 90%;
     margin: 0 auto;
@@ -66,6 +35,11 @@ div.maintitle {
     margin: 0;
     text-align: center;
 }
+
+.content .now .servers a{
+    text-decoration: none;
+}
+
 .content .now .servers:after {
     content:""; display: block; clear: both;
 }
@@ -92,7 +66,7 @@ div.maintitle {
     height: 100px;
     margin:0;
     border-radius: inherit;
-    background: url(../images/servers/2048.png) no-repeat;
+    background: linear-gradient(to right bottom, #e1afcc, #7530e3);
 }
 
 .content .now .servers .server-width .server p {
@@ -170,7 +144,7 @@ div.maintitle {
 
 .content .timeline .history .story .text h1 { 
     margin: 0 0 5px 0;
-    font-family: 'Gugi', cursive;
+    font-family: 'Noto Sans KR', sans-serif;
     text-align: left;
     font-size: 15px;
     font-weight: 700;

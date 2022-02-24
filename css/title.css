@@ -1,0 +1,29 @@
+div.maintitle {
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+
+    text-align: left;
+    padding: 20px 0;
+}
+
+.maintitle h1 {
+    margin: 80px 0 0 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.maintitle h1 span {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.maintitle p {
+    padding: 15px 0 0 15px;
+
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+}

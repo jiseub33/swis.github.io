@@ -1,0 +1,159 @@
+.content {
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.content div {
+    margin:0 0 20px 0;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: #fff;
+}
+
+.content .rank {
+    padding: 15px;
+}
+
+.content .rank .title {
+    padding: 0 5px;
+    margin: 0 0 15px 0;
+    box-sizing: border-box;
+}
+
+.content .rank .title h1 {
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+}
+
+.content .rank input {
+    position: absolute;
+    left: -5000px;
+}
+
+.content .rank label {
+    display: inline-block;
+    margin: 0 0 20px 0;
+    padding: 5px 20px;
+
+    border-radius:15px;
+    border: 1px solid #e1afcc;
+    background: #fff;
+
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.content .rank input[type="checkbox"]:checked + label {
+    background: linear-gradient(to right bottom, #e1afcc, #7530e3);
+    color: #fff;
+}
+
+.content .rank input[type="checkbox"]:checked ~ ul li.user{
+    display: none;
+}
+
+.content .rank ul {
+    display: block;
+    padding: 0;
+    margin: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    border-radius: 10px;
+    counter-reset:number;
+}
+
+.content .rank ul::-webkit-scrollbar {
+    display: none;
+}
+
+.content .rank ul {
+    display: inline-block;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+
+.content .rank ul li {
+    background: #fff;
+    margin: 0 0 10px 0;
+}
+
+.content .rank ul li a {
+    display: block;
+    text-decoration: none;
+    line-height: 0;
+
+    border-radius: 60px;
+}
+
+.content .rank ul li a {
+    background: rgb(41, 41, 41);
+}
+
+.content .rank ul li.mercenary a {
+    background: linear-gradient(to right bottom, #e1afcc, #7530e3);
+}
+
+.content .rank ul li h1 { 
+    display: inline-block;
+    width: 60px;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 100%;
+
+    font-family: 'Gugi', cursive;
+    text-align: center;
+    vertical-align: top ;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #000;
+
+    background: #fff;
+}
+
+.content .rank ul li h1:before { 
+    content: counter(number); counter-increment:number 1;
+}
+
+.content .rank ul li .text {
+    display: inline-block;
+    height: 60px;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+
+    background: none;
+    line-height: 1;
+}
+
+.content .rank ul li .text h2 { 
+    display: block;
+    box-sizing: border-box;
+
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.content .rank ul li .text p {
+    display: block;
+    padding: 5px 0 0 0;
+    box-sizing: border-box;
+
+    font-family: 'Gugi', cursive;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
