@@ -220,7 +220,7 @@
 }
 
 .content .timeline .history .story .text p {
-    font-family: 'Gugi', cursive;
+    font-family: 'Noto Sans KR', sans-serif;
     text-align: left;
     font-size: 10px;
     font-weight: 700;
@@ -232,11 +232,11 @@
 }
 
 .content .timeline .history .defeat .text h1 {
-    color: rgb(255, 208, 0);
+    color: rgb(255, 0, 0);
 }
 
 .content .timeline .history .tie .text h1 {
-    color: rgb(255, 0, 0);
+    color: rgb(255, 208, 0);
 }
 
 .content .dashboard {
