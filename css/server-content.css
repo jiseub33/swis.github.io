@@ -49,7 +49,6 @@
     font-weight: 800;
 }
 
-/*
 .content .rank input[type="checkbox"]:checked + label {
     background: linear-gradient(to right bottom, #e1afcc, #7530e3);
     color: #fff;
@@ -62,7 +61,6 @@
 .content .rank input[type="checkbox"]:checked ~ ul li.mercenary a{
     background: linear-gradient(to right bottom, #e1afcc, #7530e3);
 }
-*/
 
 .content .rank ul {
     display: block;
