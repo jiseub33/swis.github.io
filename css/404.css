@@ -1,0 +1,40 @@
+div.error {
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+
+    text-align: center;
+    padding: 20px 0;
+}
+
+.error h1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 130px;
+    font-weight: 800;
+}
+
+.error h2 {
+    padding: 20px 0 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.error p {
+    padding: 20px 0 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+}
+
+.button {
+    text-align: center;
+    max-width: 200px;
+    margin: 0 auto;
+    cursor: pointer;
+    height: auto;
+}
+
+.button-img {
+    max-width: 100px;
+}
