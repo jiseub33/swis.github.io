@@ -2,10 +2,10 @@
   "background_color": "#ffffff",
   "dir": "ltr",
   "display": "standalone",
-  "name": "swis.navyalliance48",
+  "name": "세전정보시스템",
   "orientation": "any",
-  "scope": "/",
-  "short_name": "swis.navyalliance48",
+  "scope": "https://swis.navyalliance48.com/",
+  "short_name": "세전정보시스템",
   "start_url": "/",
   "theme_color": "#ffffff",
   "icons": [
