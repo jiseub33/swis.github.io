@@ -2,6 +2,7 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
+    <link rel="manifest" href="manifest.json" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta http-equiv="refresh" content="60">
@@ -10,6 +11,11 @@
     <link rel="stylesheet" href="https://swis.navyalliance48.com/css/title.css">
     <link rel="stylesheet" href="https://swis.navyalliance48.com/css/server-content.css">
     <script src="../js/user.js"></script>
+    <script type="module">
+    import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+    const el = document.createElement('pwa-update');
+    document.body.appendChild(el);
+    </script>
 </head>
 <body>
     <div class="maintitle">

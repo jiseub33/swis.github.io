@@ -1,0 +1,18 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "swis.navyalliance48",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "swis.navyalliance48",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "images/175x198.png",
+      "type": "image/png",
+      "sizes": "175x198"
+    }
+  ]
+}

@@ -3,9 +3,15 @@
 <head>
     <link href="https://www.navyalliance48.com/images/LOGO/NAVY.ico" rel="shortcut icon" type="image/x-icon">
     <meta charset="UTF-8">
+    <link rel="manifest" href="manifest.json" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>세전정보시스템</title>
+    <script type="module">
+    import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+    const el = document.createElement('pwa-update');
+    document.body.appendChild(el);
+    </script>
 </head>
 <frameset rows="*" border="0" >
     <frame src="https://swis.navyalliance48.com/home" scrolling="yes" marginwidth="0" marginheight="0" noresize>
