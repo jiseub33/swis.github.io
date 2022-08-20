@@ -4,15 +4,15 @@
   "display": "standalone",
   "name": "세전정보시스템",
   "orientation": "any",
-  "scope": "https://swis.navyalliance48.com/",
+  "scope": "/",
   "short_name": "세전정보시스템",
-  "start_url": "/",
+  "start_url": "https://swis.navyalliance48.com/",
   "theme_color": "#ffffff",
   "icons": [
     {
       "src": "images/logo.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "192x192"
     }
   ]
 }
