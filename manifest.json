@@ -6,7 +6,7 @@
   "orientation": "any",
   "scope": "/",
   "short_name": "세전정보시스템",
-  "start_url": "https://swis.navyalliance48.com/",
+  "start_url": "https://swis.jisby.com/",
   "theme_color": "#ffffff",
   "icons": [
     {
